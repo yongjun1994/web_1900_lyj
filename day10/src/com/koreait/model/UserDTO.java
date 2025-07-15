@@ -25,33 +25,42 @@ public class UserDTO {
 		this.userId = userId;
 		this.userPw = userPw;
 	}
-	
-	
+
 	// getter, setter : private 접근 제한자가 붙은 필드에 값을 저장할 때 사용하는 메소드
 	// 게터, 세터 만들기 단축키: alt + shift + s + r
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public int getAge() {
 		return age;
 	}
+
 	public void setAge(int age) {
 		this.age = age;
 	}
+
 	public String getUserId() {
 		return userId;
 	}
+
 	public void setUserId(String userId) {
 		this.userId = userId;
 	}
+
 	public String getUserPw() {
 		return userPw;
 	}
+
 	public void setUserPw(String userPw) {
 		this.userPw = userPw;
 	}
+	
+	
+	
 	
 }
